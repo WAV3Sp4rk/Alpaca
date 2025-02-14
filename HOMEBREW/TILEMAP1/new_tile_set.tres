@@ -1,0 +1,59 @@
+[gd_resource type="TileSet" load_steps=9 format=3 uid="uid://tvduotd46i6r"]
+
+[ext_resource type="Texture2D" uid="uid://g3p4dxj2mnld" path="res://Tiny Pixel Fantasy - Base Pack/Tiles/Outside_4_3.png" id="1_bb0ap"]
+[ext_resource type="Texture2D" uid="uid://bw43fpalevx0m" path="res://Tiny Pixel Fantasy - Base Pack/Tiles/Outside_2_1.png" id="2_d76bk"]
+[ext_resource type="Texture2D" uid="uid://c5s2fui44573c" path="res://Tiny Pixel Fantasy - Base Pack/Tiles/Outside_17_1.png" id="3_f7eli"]
+[ext_resource type="Texture2D" uid="uid://cuy5ihk28n7d1" path="res://Tiny Pixel Fantasy - Base Pack/Tiles/CastleInterior/CastleInterior_2_1.png" id="4_hkaey"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iomuq"]
+texture = ExtResource("1_bb0ap")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e8njq"]
+texture = ExtResource("2_d76bk")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1mqhp"]
+texture = ExtResource("3_f7eli")
+0:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_etpr3"]
+texture = ExtResource("4_hkaey")
+0:0/0 = 0
+
+[resource]
+sources/1 = SubResource("TileSetAtlasSource_iomuq")
+sources/2 = SubResource("TileSetAtlasSource_e8njq")
+sources/3 = SubResource("TileSetAtlasSource_1mqhp")
+sources/4 = SubResource("TileSetAtlasSource_etpr3")
